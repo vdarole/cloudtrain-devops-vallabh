@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Checkout code 
-            uses: actions/checkout@v4
+          uses: actions/checkout@v4
         - name: Viewing files
-            run: ls -la
+          run: ls -la
         - name: Viewing test-file-1.txt
-            run: cat test-file-1.txt
+          run: cat test-file-1.txt
         - name: Viewing test-file-2.txt
-            run: cat test-file-2.txt
+          run: cat test-file-2.txt
         
